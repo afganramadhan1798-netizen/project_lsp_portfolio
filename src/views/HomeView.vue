@@ -444,7 +444,7 @@ function openOrganizationDetail(organization) {
             free to reach out!
           </p>
 
-          <a href="mailto:your-email@gmail.com" class="contact-email-button">
+          <a href="afganramadhan1798@gmail.com" class="contact-email-button">
             GET IN TOUCH
             <span>↗</span>
           </a>
@@ -453,7 +453,7 @@ function openOrganizationDetail(organization) {
         <div class="contact-information">
           <div class="contact-info-item">
             <p>EMAIL</p>
-            <a href="mailto:your-email@gmail.com"> afgannramadhan1798@gmail.com </a>
+            <a href="afganramadhan1798@gmail.com"> afgannramadhan1798@gmail.com </a>
           </div>
 
           <div class="contact-info-item">
