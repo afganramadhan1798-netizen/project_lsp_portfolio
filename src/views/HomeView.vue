@@ -64,7 +64,7 @@ const experiences = [
     number: '04',
     year: '2026',
     category: 'WEB DEVELOPMENT',
-    title: 'E-Vote Management System',
+    title: 'E-Vote System',
     organization: 'Student Council Election Project',
     description:
       'Collaborated on developing a web-based electronic voting system for student council elections, featuring voter management, candidate information, and election administration.',
@@ -88,7 +88,7 @@ const experiences = [
     number: '06',
     year: '2026',
     category: 'SOFTWARE DEVELOPMENT',
-    title: 'Smart Event Management System',
+    title: 'Event Management System',
     organization: 'Team Development Project',
     description:
       'Worked on a digital event management platform designed to simplify event creation, participant registration, announcements, and certificate management.',
@@ -101,36 +101,36 @@ const projects = [
   {
     id: 1,
     number: '01',
-    title: 'OMS – Lenna.ai',
+    title: 'OMS – Lenna.AI',
     category: 'WEB DEVELOPMENT',
     description:
       'An overtime management system designed to simplify employee overtime submissions, review processes, and HR approval workflows.',
     technologies: ['Vue.js', 'Laravel', 'MySQL'],
-    image: '/assets/Projects/OMS Lenna ai.png',
+    image: '/assets/Projects/oms.png',
     type: 'FULL-STACK DEVELOPMENT',
     link: 'https://github.com/afganramadhan1798-netizen/oms-backend',
   },
   {
     id: 2,
     number: '02',
-    title: 'E-Vote Management System',
+    title: 'E-Vote System',
     category: 'WEB DEVELOPMENT',
     description:
       'A digital voting platform developed to support student council elections with voter management and election administration features.',
     technologies: ['Vue.js', 'Laravel', 'MySQL'],
-    image: '/assets/Projects/e-vote.jpeg',
+    image: '/assets/Projects/e-vote.png',
     type: 'FULL-STACK DEVELOPMENT',
     link: 'https://github.com/afganramadhan1798-netizen/e-vote-backend',
   },
   {
     id: 3,
     number: '03',
-    title: 'Smart Event Management',
+    title: 'Event Management System',
     category: 'SYSTEM DEVELOPMENT',
     description:
       'An event management platform designed to simplify event creation, participant registration, announcements, and certificate management.',
-    technologies: ['UI/UX Design', 'Web Development'],
-    image: '/assets/Projects/eventty.jpeg',
+    technologies: ['UI/UX Design', 'Laravel', 'MySQL'],
+    image: '/assets/Projects/eventty.png',
     type: 'TEAM PROJECT',
     link: 'https://github.com/fathirizkiansyah8-lgtm/eventty',
   },
@@ -142,7 +142,7 @@ const projects = [
     description:
       'A web-based online store featuring product browsing, product details, wishlist, shopping cart, and checkout functionality.',
     technologies: ['Vue.js', 'Laravel', 'MySQL'],
-    image: '/assets/Projects/Best Seller.png',
+    image: '/assets/Projects/gans_store.png',
     type: 'FULL-STACK DEVELOPMENT',
     link: 'https://github.com/afganramadhan1798-netizen/e-commerce-gans_store',
   },
@@ -412,7 +412,30 @@ function openOrganizationDetail(organization) {
               class="project-details-button"
             >
               VIEW PROJECT
-              <span>↗</span>
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M0 0h24v24H0z" fill="none" />
+                  <g fill="none">
+                    <g clip-path="url(#SVGXv8lpc2Y)">
+                      <path
+                        fill="currentColor"
+                        fill-rule="evenodd"
+                        d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385c.6.105.825-.255.825-.57c0-.285-.015-1.23-.015-2.235c-3.015.555-3.795-.735-4.035-1.41c-.135-.345-.72-1.41-1.23-1.695c-.42-.225-1.02-.78-.015-.795c.945-.015 1.62.87 1.845 1.23c1.08 1.815 2.805 1.305 3.495.99c.105-.78.42-1.305.765-1.605c-2.67-.3-5.46-1.335-5.46-5.925c0-1.305.465-2.385 1.23-3.225c-.12-.3-.54-1.53.12-3.18c0 0 1.005-.315 3.3 1.23c.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23c.66 1.65.24 2.88.12 3.18c.765.84 1.23 1.905 1.23 3.225c0 4.605-2.805 5.625-5.475 5.925c.435.375.81 1.095.81 2.22c0 1.605-.015 2.895-.015 3.3c0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12"
+                        clip-rule="evenodd"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="SVGXv8lpc2Y">
+                        <path fill="#fff" d="M0 0h24v24H0z" />
+                      </clipPath>
+                    </defs>
+                  </g></svg
+              ></span>
             </a>
 
             <span v-else class="project-details-button project-link-disabled">
@@ -464,8 +487,12 @@ function openOrganizationDetail(organization) {
           <div class="contact-info-item">
             <p>SOCIAL MEDIA</p>
             <div class="contact-social-links">
-              <a href="https://github.com/afganramadhan1798-netizen" target="_blank" rel="noopener noreferrer">
-                GitHub ↗
+              <a
+                href="https://github.com/afganramadhan1798-netizen"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub 
               </a>
 
               <a
@@ -473,15 +500,15 @@ function openOrganizationDetail(organization) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Instagram ↗
-              </a>
+              Instagram 
+              </a> 
 
               <a
                 href="https://www.linkedin.com/in/afgan-ramadhan-743a5941a/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                LinkedIn ↗
+                LinkedIn 
               </a>
             </div>
           </div>

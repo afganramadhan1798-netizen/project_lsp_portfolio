@@ -27,7 +27,7 @@ const organizations = [
         subtitle: 'THE BEGINNING',
         title: 'Starting My Leadership Journey',
         description:
-          'Wakil Ketua OSIS — Kelas X Perjalanan saya di OSIS dimulai dengan kesempatan untuk menjadi Wakil Ketua OSIS. Dari pengalaman ini, saya mulai belajar memahami tanggung jawab organisasi, bekerja sama dengan pengurus, dan membantu menjalankan berbagai program kerja.',
+          'Vice President of the Student Council — 10th Grade My journey in the Student Council started with the opportunity to become Vice President. From this experience, I began learning to understand organizational responsibilities, work together with the committee, and help carry out various work programs.',
         side: 'left',
         images: [
           {
@@ -43,12 +43,12 @@ const organizations = [
         subtitle: 'GROWTH & RESPONSIBILITY',
         title: 'Taking Greater Responsibility',
         description:
-          'Wakil Ketua OSIS — Kelas XI Memasuki kelas XI, saya mendapatkan pengalaman yang lebih besar dalam mengoordinasikan kegiatan dan mendukung jalannya organisasi. Saya belajar bahwa kepemimpinan bukan hanya tentang memberikan arahan, tetapi juga mendengarkan, memahami, dan bekerja bersama tim.',
+          'Vice President of Student Council — 11th Grade Entering 11th grade, I gained more experience in coordinating activities and supporting the running of the organization. I learned that leadership is not just about giving directions, but also about listening, understanding, and working together with the team.',
         side: 'right',
         images: [
           {
-            src: '/assets/organization/politech1.JPG',
-            caption: 'POLITECH 2025',
+            src: '/assets/organization/osis_mpk.png',
+            caption: 'OSIS & MPK 2024/2025',
             type: 'landscape',
           },
         ],
@@ -59,7 +59,7 @@ const organizations = [
         subtitle: 'A NEW CHALLENGE',
         title: 'Running for OSIS Chairman',
         description:
-          'Calon Ketua OSIS — Pasangan Calon 3 Saya mendapatkan kesempatan untuk melangkah lebih jauh dengan mengikuti pemilihan Ketua OSIS bersama Ahmad Farhan. Pengalaman kampanye dan debat kandidat menjadi kesempatan untuk menyampaikan gagasan, membangun kepercayaan, serta belajar menghadapi tantangan baru.',
+          'Candidate for OSIS President — Candidate Pair 3 I got the chance to take things further by running for OSIS President together with Ahmad Farhan. The experience of campaigning and participating in candidate debates was an opportunity to share ideas, build trust, and learn to face new challenges.',
         side: 'left',
         images: [
           {
